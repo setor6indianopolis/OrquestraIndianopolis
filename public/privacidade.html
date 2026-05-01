@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Política de Privacidade — Orquestra</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0d0d14;color:#c8c6c0;min-height:100vh;padding:40px 24px;line-height:1.8}
+.container{max-width:680px;margin:0 auto}
+h1{font-family:'Playfair Display',serif;color:#c9a84c;font-size:28px;margin-bottom:8px}
+.back{color:#c9a84c;text-decoration:none;font-size:14px;display:inline-block;margin-bottom:24px}
+.updated{font-size:12px;color:#7a7a90;margin-bottom:32px}
+h2{color:#e8e6e1;font-size:16px;margin:28px 0 8px}
+p{font-size:14px;margin-bottom:12px}
+strong{color:#e8e6e1}
+.footer{margin-top:48px;text-align:center;font-size:12px;color:#7a7a90}
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="/" class="back">← Voltar</a>
+  <h1>Política de Privacidade</h1>
+  <div class="updated">Última atualização: Maio de 2026</div>
+
+  <h2>1. Dados coletados</h2>
+  <p>Coletamos apenas: <strong>nome completo</strong>, <strong>endereço de e-mail</strong> e <strong>senha</strong> (armazenada de forma criptografada com hash SHA-256 + salt individual). Opcionalmente: instrumento musical. Nenhuma outra informação pessoal é solicitada ou coletada automaticamente.</p>
+
+  <h2>2. Finalidade do tratamento</h2>
+  <p>Seus dados são utilizados exclusivamente para: identificação e autenticação no sistema, comunicação sobre eventos e atividades da orquestra, e recuperação de senha. <strong>Não compartilhamos, vendemos ou transferimos seus dados a terceiros em nenhuma circunstância.</strong></p>
+
+  <h2>3. Base legal (LGPD Art. 7°)</h2>
+  <p>O tratamento dos dados pessoais é baseado no <strong>consentimento</strong> do titular (Art. 7°, I), obtido de forma livre, informada e inequívoca no momento do cadastro.</p>
+
+  <h2>4. Armazenamento e segurança</h2>
+  <p>Os dados são armazenados na infraestrutura do Google Cloud (Google Sheets + Google Apps Script), com acesso restrito ao administrador do sistema. Medidas de segurança implementadas:</p>
+  <p>• Senhas protegidas com hash SHA-256 + salt único por usuário<br>
+  • Rate limiting contra tentativas de força bruta (5 tentativas, bloqueio de 15 minutos)<br>
+  • Chaves de acesso armazenadas via PropertiesService (não expostas no código)<br>
+  • Comunicação via HTTPS garantida pela infraestrutura Google<br>
+  • Sanitização de inputs contra ataques XSS</p>
+
+  <h2>5. Direitos do titular (LGPD Art. 18)</h2>
+  <p>Você tem direito a:</p>
+  <p>• <strong>Acessar</strong> seus dados pessoais — disponível na seção "Meu Perfil"<br>
+  • <strong>Corrigir</strong> dados incompletos ou incorretos — disponível na seção "Meu Perfil"<br>
+  • <strong>Solicitar a exclusão</strong> dos seus dados — entre em contato com o maestro da sua orquestra<br>
+  • <strong>Revogar o consentimento</strong> a qualquer momento — solicite ao maestro a remoção da sua conta<br>
+  • <strong>Portabilidade</strong> — você pode solicitar uma cópia dos seus dados ao administrador</p>
+
+  <h2>6. Retenção de dados</h2>
+  <p>Seus dados são mantidos enquanto sua conta estiver ativa. Ao ser removido de uma orquestra, seu vínculo é desativado mas os dados de identificação permanecem para possível re-ingresso. A exclusão total pode ser solicitada ao administrador.</p>
+
+  <h2>7. Cookies e rastreamento</h2>
+  <p>Este aplicativo <strong>não utiliza cookies de rastreamento, analytics ou publicidade</strong>. O único dado armazenado localmente (localStorage) é a sessão do usuário para evitar re-login.</p>
+
+  <h2>8. Transferência internacional</h2>
+  <p>Os dados são processados nos servidores do Google Cloud, que podem estar localizados fora do Brasil. O Google adere a padrões internacionais de proteção de dados e possui certificações de conformidade.</p>
+
+  <h2>9. Contato do controlador</h2>
+  <p>Para exercer seus direitos ou esclarecer dúvidas sobre o tratamento de dados, entre em contato com o maestro/administrador da sua orquestra.</p>
+
+  <h2>10. Alterações</h2>
+  <p>Esta política pode ser atualizada periodicamente. Alterações significativas serão comunicadas através do sistema.</p>
+</div>
+
+<div class="footer">
+  <p>© 2026 Orquestra App</p>
+</div>
+</body>
+</html>
