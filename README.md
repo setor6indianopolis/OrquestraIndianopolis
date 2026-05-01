@@ -9,7 +9,7 @@
 ### 1. Configurar a URL do Apps Script
 Edite `public/redirect.html` e substitua:
 ```
-var APPS_SCRIPT_URL = 'COLE_A_URL_DO_SEU_DEPLOY_AQUI';
+var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzFyOsgU3YlYYXnzKrful2W1zmTTRy3nJedPOF8H8YTkHVGhNcMJkNidA6V0ICVR6LH/exec';
 ```
 pela URL real do seu deploy do Apps Script.
 
